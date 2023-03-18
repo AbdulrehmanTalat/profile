@@ -118,12 +118,12 @@ export default function Header() {
                     Home
                   </li>
                 </Link>
-                <Link href='/#about'>
+                <Link href={'about'}>
                   <li onClick={() => setNav(false)} className='py-4 text-sm'>
                     About
                   </li>
                 </Link>
-                <Link href='/#skills'>
+                <Link href={'skils'}>
                   <li onClick={() => setNav(false)} className='py-4 text-sm'>
                     Skills
                   </li>
@@ -133,7 +133,7 @@ export default function Header() {
                     Projects
                   </li>
                 </Link>
-                <Link href='/#contact'>
+                <Link href={'contact'}>
                   <li onClick={() => setNav(false)} className='py-4 text-sm'>
                     Contact
                   </li>
