@@ -57,7 +57,7 @@ export default function Header() {
                 <Link href={'skils'}>Skills</Link>
               </li>
               <li className='ml-10 text-sm uppercase hover:border-b'>
-                <Link href='/#projects'>Projects</Link>
+                <Link href={'projects'}>Projects</Link>
               </li>
               <li className='ml-10 text-sm uppercase hover:border-b'>
                 <Link href={'contact'}>Contact</Link>
@@ -128,7 +128,7 @@ export default function Header() {
                     Skills
                   </li>
                 </Link>
-                <Link href='/#projects'>
+                <Link href={'projects'}>
                   <li onClick={() => setNav(false)} className='py-4 text-sm'>
                     Projects
                   </li>

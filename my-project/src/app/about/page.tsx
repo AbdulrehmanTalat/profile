@@ -2,6 +2,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import AboutImg from '../../../public/about.jpg';
+import { motion } from "framer-motion";
 export default function About() {
   return (
     <div id='about' className='w-full md:h-screen p-2 flex items-center py-16'>
@@ -27,7 +28,7 @@ export default function About() {
             mock wireframes all the way to deployed applications. In my spare
             time I learn about new technologies.
           </p>
-          <Link href='/#projects'>
+          <Link href={'projects'}>
             <p className='py-2 text-gray-600 underline cursor-pointer'>
               Check out some of my latest projects.
             </p>
