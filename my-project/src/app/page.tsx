@@ -10,7 +10,7 @@ export default function Home() {
       <div id='home' className='w-full h-screen text-center'>
         <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
           <div>
-            <p className='uppercase text-sm tracking-widest text-gray-600'>
+            {/* <p className='uppercase text-sm tracking-widest text-gray-600'> */}
               <Typewriter
                 options={{
                   strings: ["LET'S BUILD SOMETHING TOGETHER"],
@@ -18,7 +18,7 @@ export default function Home() {
                   loop: true,
                 }}
               />
-            </p>
+            {/* </p> */}
             <h1 className='py-4 text-gray-700'>
               Hi, I&#39;m <span className='text-[#5651e5]'> Abdulrehman</span>
             </h1>

@@ -40,7 +40,7 @@ export default function Projects() {
           <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff] hover:scale-105 ease-in duration-300'>
             <Image className='rounded-xl group-hover:opacity-10' src={pricingui} alt='/' />
             <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
-              <h3 className='text-2xl text-white tracking-wider text-center'>{'Panaverse App'}</h3>
+              <h3 className='text-2xl text-white tracking-wider text-center'>{'Pricing Ui'}</h3>
               <p className='pb-4 pt-2 text-white text-center'>{'next js'}</p>
               <Link href='https://pricing-ui-six-alpha.vercel.app/'>
                 <p className='text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer'>More Info</p>
